@@ -23,18 +23,50 @@ const Index = () => {
         </HStack>
       </Flex>
 
-      {/* Hero Section */}
-      <Flex as="section" w="100%" h="60vh" bg="gray.100" justifyContent="center" alignItems="center" direction="column" textAlign="center" p={4}>
-        <Heading as="h2" size="2xl" mb={4}>
-          Fast and Reliable Last Mile Delivery
+      {}
+      <VStack as="section" w="100%" py={16} spacing={8} bg="white" textAlign="center">
+        <Heading as="h2" size="2xl">
+          Welcome to Access Riders - Your Last Mile Delivery Partner!
         </Heading>
-        <Text fontSize="lg" mb={6}>
-          We ensure your packages are delivered on time, every time.
+        <Text fontSize="lg" maxW="800px">
+          Access Riders, a division of Access Capital Holdings, is your premier partner for last mile delivery solutions. Whether you're a business seeking reliable delivery services or a driver looking to join our network, Access Riders has the tools and expertise to meet your needs.
         </Text>
-        <Button colorScheme="blue" size="lg">
-          Get Started
-        </Button>
-      </Flex>
+      </VStack>
+
+      {}
+      <VStack as="section" w="100%" py={16} spacing={8} bg="gray.100" textAlign="center">
+        <Heading as="h3" size="xl">
+          Why Choose Access Riders for Your Last Mile Deliveries?
+        </Heading>
+        <VStack spacing={4} maxW="800px">
+          <Text fontSize="lg">Efficient Delivery Solutions: Our platform connects businesses with a network of skilled drivers and advanced driver management solutions, ensuring fast and efficient deliveries every time.</Text>
+          <Text fontSize="lg">Driver Partnership Opportunities: Join our network of drivers and unlock endless earning potential. As an authorized Uber partner, Access Riders offers flexible opportunities for drivers to thrive in the delivery industry.</Text>
+          <Text fontSize="lg">Comprehensive Driver Management: From onboarding to performance tracking, Access Riders provides comprehensive driver management solutions to streamline operations and maximize efficiency.</Text>
+        </VStack>
+      </VStack>
+
+      {}
+      <VStack as="section" w="100%" py={16} spacing={8} bg="white" textAlign="center">
+        <Heading as="h3" size="xl">
+          How Access Riders Works:
+        </Heading>
+        <VStack spacing={4} maxW="800px">
+          <Text fontSize="lg">Partner with Us: Whether you're a business or a driver, partner with Access Riders to access our suite of delivery solutions and driver management tools.</Text>
+          <Text fontSize="lg">Schedule Deliveries: Businesses can easily schedule deliveries through our platform, while drivers can choose their own schedules and earn on their terms.</Text>
+          <Text fontSize="lg">Track Deliveries in Real-Time: Monitor the progress of your deliveries in real-time and receive notifications every step of the way for enhanced transparency and peace of mind.</Text>
+          <Text fontSize="lg">Grow Your Business or Earnings: With Access Riders, businesses can expand their delivery capabilities, while drivers can increase their earnings and build a successful career in the delivery industry.</Text>
+        </VStack>
+      </VStack>
+
+      {}
+      <VStack as="section" w="100%" py={16} spacing={8} bg="gray.100" textAlign="center">
+        <Heading as="h3" size="xl">
+          Join the Access Riders Community Today!
+        </Heading>
+        <Text fontSize="lg" maxW="800px">
+          Experience the convenience, reliability, and efficiency of Access Riders. Whether you're a business looking to streamline your delivery operations or a driver seeking flexible earning opportunities, we're here to help you succeed. Partner with Access Riders and take your delivery business to new heights!
+        </Text>
+      </VStack>
 
       {/* Services Section */}
       <VStack as="section" w="100%" py={16} spacing={8} bg="white" textAlign="center">
